@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.EntityFramework.Concrete
 {
-    public class EFCategoryDal:EFBaseRepository<Category,NorthwindContext>,ICategoryDal
+    public class EFOrderDal: EFBaseRepository<Order, NorthwindContext>,IOrderDal
     {
     }
 }
